@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main_page</title>
+</head>
+<body>
+    <center>
+    <!-- used layout tags through out the webpageand included semantic tags like em,strong and table to engege with more layout structured page as per the feedback provided -->
+    <header>
+        <h1>DEMONSTRATION</h1>
+        <!-- This page demonstrates about the iframe concept with 2 examples-1.youtube video 2.iframe using name attribute -->
+    </header>
+    <main>
+        <section>
+            
+            <!--I have opened the 3 different webpages (iframes concept) in the index page using relative paths-->
+                <iframe src="" name="ran" height="450" width="450"></iframe><br>
+                <a href="./day1.html" target="ran"><em>click here for DAY-1 task</em></a><br><br>
+                <a href="./day2.html" target="ran"><strong>Click here for DAY-2 task</strong></a><br><br>
+                <a href="./day3.html" target="ran"><mark>CLICK ME</mark><U>for DAY-3 task</U></a><br><br>
+            <br>
+        </section>
+        <aside>
+            <!-- used table tag fot information  -->
+            <TABLE border="2">
+                <tr>
+                    <th>MODE of transport</th>
+                    <th>Expenditure</th>
+                </tr>
+                <tr>
+                    <td>BIKE</td>
+                    <td>800</td>
+                </tr>
+                <tr>
+                    <td>car</td>
+                    <td>1500</td>
+                </tr>
+               </TABLE><br>
+               <p><mark>Roadmap to Goa from Hyderabad:</mark></p>
+             <!--used relative path in the below image tag -->
+          <img src="./sample_map.png" alt="map" title="hyd-goa" height="300" width="300"><br>
+          <pre>The above map guides us the way to reach Goa from Hyderabad</pre><br><br>
+          
+          <!-- used Absolute path in iframe tag to open youtube video in current webpage -->
+           <h4>Demonstartion of opening a  youtube video by using iframe tag: </h4>
+           
+       
+<iframe  
+src="https://www.youtube.com/embed/wVSd7CduMFI?si=jPySXmy0zZaZxT7H" 
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen height="300" width="300"></iframe>
+
+        </aside>
+    </main>
+    <footer>
+        <p>REACH OUT maderaboinaranjith463@gmail.com to resolve your queries</p>
+    </footer>
+    
+    </center>
+</body>
+</html>
